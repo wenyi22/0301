@@ -4,7 +4,7 @@ import json
 import pandas as pd
 
 def fetch_and_append_air_quality_data(excel_path):
-    url = 'https://airbox.edimaxcloud.com/api/tk/query_now?token=ac59b57b-81fb-4fe2-a2e2-d49b25c7f8e5'
+    url = ''
     
     response = requests.get(url)
     
